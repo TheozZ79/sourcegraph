@@ -24,6 +24,7 @@ All notable changes to Sourcegraph are documented in this file.
 - Experimental: The webapp can now stream search results to the client, improving search performance. To enable it, add `{ "experimentalFeatures": { "searchStreaming": true } }` in user settings. [#16097](https://github.com/sourcegraph/sourcegraph/pull/16097)
 - New product research sign-up page. This can be accessed by all users in their user settings. [#17945](https://github.com/sourcegraph/sourcegraph/pull/17945)
 - New site config option `productResearchPage.enabled` to disable access to the product research sign-up page. [#17945](https://github.com/sourcegraph/sourcegraph/pull/17945)
+- When previewing a campaign spec, changesets can be filtered by current state or the action(s) to be performed. [#16960](https://github.com/sourcegraph/sourcegraph/issues/16960)
 
 ### Changed
 
